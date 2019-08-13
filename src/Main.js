@@ -12,9 +12,9 @@ import { IntlProvider } from "react-intl";
 // addLocaleData(enLocaleData);
 
 const token = "";
-const folderId = "";
+const folderId = "0";
 
-const Main = (
+const Main = () => (
     <App>
         <IntlProvider locale="en" textComponent={React.Fragment}>
             <ContentUploader rootFolderId={folderId} token={token} />
