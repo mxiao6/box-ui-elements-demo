@@ -3,7 +3,7 @@
 // import enLocaleData from 'react-intl/locale-data/en';
 
 import React from "react";
-import ContentUploader from "box-ui-elements/es/elements/content-uploader";
+import ContentPicker from "box-ui-elements/es/elements/content-picker";
 import App from "./App";
 import { IntlProvider } from "react-intl";
 // import 'box-ui-elements/dist/explorer.css';
@@ -17,7 +17,7 @@ const folderId = "0";
 const Main = () => (
     <App>
         <IntlProvider locale="en" textComponent={React.Fragment}>
-            <ContentUploader rootFolderId={folderId} token={token} />
+            <ContentPicker rootFolderId={folderId} token={token} />
         </IntlProvider>
     </App>
 );
