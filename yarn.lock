@@ -1432,10 +1432,10 @@ bonjour@^3.5.0:
     multicast-dns "^6.0.1"
     multicast-dns-service-types "^1.1.0"
 
-box-ui-elements@^11.0.0-beta.33:
-  version "11.0.0-beta.33"
-  resolved "https://registry.yarnpkg.com/box-ui-elements/-/box-ui-elements-11.0.0-beta.33.tgz#66edb8c35e5db123e23e8cbc22b3772813fc2e8c"
-  integrity sha512-DdSHhV5aIzYk+HR9lnHJTRxwSfGfSpIhOlF3ys0OQCRbED0rBU0S+BrwtgJjnX0WZY0l6jtQ/oHBslsJEPaEVA==
+box-ui-elements@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/box-ui-elements/-/box-ui-elements-11.0.0.tgz#73cfc59229580fa04e446efd25843fc43944ad7e"
+  integrity sha512-SRYFfYez7DGeni8ZdCc+iVg1KqTMeT1Ow9IKwQteCoUV5enos9aycS2XKyOWzaBmnM50xrQ2Q12XhvY7tsAZtg==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
